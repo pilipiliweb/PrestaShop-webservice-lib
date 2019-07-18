@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "PW\\": "Prestashop/"
+            "PrestaShopWebservice\\": "src/"
         }
     },
     "minimum-stability": "stable",
