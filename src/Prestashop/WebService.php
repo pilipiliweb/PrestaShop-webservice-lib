@@ -26,9 +26,9 @@
  * @package PrestaShopWebservice
  */
 
-namespace PW;
+namespace PrestaShopWebservice;
 
-use PW\WebServiceException;
+use PrestaShopWebservice\WebServiceException;
 
 /**
  * @package PrestaShopWebService
