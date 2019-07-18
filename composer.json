@@ -1,18 +1,25 @@
 {
-    "name": "prestashop/prestashop-webservice-lib",
+    "name": "pilipili-web/prestashop-webservice-lib",
     "description": "PrestaShop Webservice access library",
     "license": "OSL-3.0",
     "authors": [
+        {
+            "name": "Pililili Web",
+            "email": "webmaster@pilipili-web.com"
+        },
         {
             "name": "PrestaShop SA",
             "email": "contact@prestashop.com"
         }
     ],
     "autoload": {
-        "classmap": ["PSWebServiceLibrary.php"]
+        "psr-4": {
+            "PW\\": "Prestashop/"
+        }
     },
+    "minimum-stability": "stable",
     "require": {
-        "php": ">= 5.3.0",
+        "php": ">= 5.4.0",
         "ext-curl": "*"
     }
 }
